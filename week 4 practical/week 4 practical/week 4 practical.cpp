@@ -10,11 +10,11 @@ int main()
 	std::cout << "How many numbers do you want to enter?";
 	std::cin >> amount;
 
-	int x;
+	int Insert;
 	for (int i = 0; i < amount; i++) {
 		std::cout << "Enter a number:";
-		std::cin >> x;
-		Number.insert(x);
+		std::cin >> Insert;
+		Number.insert(Insert);
 	}
 
 		int Check ;
